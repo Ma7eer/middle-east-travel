@@ -1,0 +1,70 @@
+/* GENERAL STYLES */
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: 'Kodchasan', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.arab-lang {
+  font-family: 'Lalezar', cursive;
+}
+
+/* NAVIGATION BAR STYLES */
+.navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-item {
+  margin: 15px;
+}
+
+.nav-item a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.nav-item a:hover {
+  color: gray;
+  text-decoration: inherit;
+  transition: 0.5s;
+}
+
+.container {
+  /* position: relative; */
+  /* text-align: center; */
+  color: white;
+}
+
+/* MAIN SECTION STYLES */
+img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+  vertical-align: middle;
+}
+
+.centered {
+  font-size: 35px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom-left {
+  position: relative;
+  bottom: 200px;
+  left: 16px;
+}
