@@ -4,11 +4,14 @@
 /* navbar styles */
 @import url("navbar.css");
 
-/* general section codes */
+/* general section styles */
 @import url("sections.css");
 
-/* landing section codes */
+/* landing section styles */
 @import url("landingSection.css");
 
-/* Country section codes */
+/* Country section styles */
 @import url("citySection.css");
+
+/* top button styles */
+@import url("topButton.css");
