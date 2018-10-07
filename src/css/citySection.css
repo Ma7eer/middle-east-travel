@@ -1,0 +1,74 @@
+.dubai {
+  background-image: url("https://cdn.pixabay.com/photo/2016/10/24/22/43/dubai-1767540_960_720.jpg");
+}
+
+.istanbul {
+  background-image: url("https://cdn.pixabay.com/photo/2015/12/15/15/12/istanbul-1094404_960_720.jpg");
+}
+
+.beirut {
+  background-image: url("https://cdn.pixabay.com/photo/2018/09/24/01/24/street-3698917_960_720.jpg");
+}
+
+.doha {
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/21/11/29/doha-1844787_960_720.jpg");
+}
+
+.tehran {
+  background-image: url("https://images.unsplash.com/photo-1533982023263-64b4091468ab?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a35a76cf7a6f49544c600188995ca3e6&auto=format&fit=crop&w=750&q=80");
+}
+
+.alexandria {
+  background-image: url("https://cdn.pixabay.com/photo/2016/03/12/12/09/alexandria-1251930_960_720.jpg");
+}
+
+.jerusalem {
+  background-image: url("https://images.unsplash.com/photo-1466175743059-5393a020726c?ixlib=rb-0.3.5&s=3703a6f200615e2e7d4bb56260ca5cdc&auto=format&fit=crop&w=750&q=80");
+}
+
+.jeddah {
+  background-image: url("https://cdn.pixabay.com/photo/2015/02/27/14/35/jeddah-652151_960_720.jpg");
+}
+
+.hero.hero-city {
+  position: relative;
+  justify-content: center;
+  text-align: left;
+  min-height: 100vh;
+}
+
+.hero .city-name {
+  font: bold 40px Kodchasan;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.hero h2 {
+  font: normal 18px Kodchasan;
+  margin-bottom: 40px;
+  color: white;
+}
+.hero h3 {
+  font: normal 18px Kodchasan;
+  margin-bottom: 40px;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .hero .city-name {
+    font: bold 50px Kodchasan;
+    margin-bottom: 15px;
+    color: white;
+  }
+
+  .hero .city-pop {
+    font: normal 25px Kodchasan;
+    margin-bottom: 20px;
+    color: white;
+  }
+  .hero h3 {
+    font: normal 25px Kodchasan;
+    margin-bottom: 40px;
+    color: white;
+  }
+}
